@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: black;
+  font-family: 'Gangsta', sans-serif;
+}
+.h1 {
+  top: 10px
+}
+.bloods1 {
+  width: 700px;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  left: 40px;
+  top: 200px;
+ } 
+.bloods2 {
+   width: 700px;
+   height: auto;
+   object-fit: cover;
+   position: absolute;
+   right: 40px;
+   top: 230px;
+  border-radius: 80px;
+ }
+hr {
+  width: 500px;
+}
+
+#title {
+  color: #eb0000;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#board {
+  width: 350px;
+  height: 420px;
+  margin: 0 auto;
+  margin-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  /* Box */
+  border: 2px solid #eb0000;
+  width: 60px;
+  height: 60px;
+  margin: 2.5px;
+
+  /* Text */
+  color: red;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correct {
+  background-color: #6AAA64;
+  color: black;
+  border-color: red;
+}
+
+.present {
+  background-color: #C9B458;
+  color: black;
+  border-color: red;
+}
+
+.absent {
+  background-color: #ff8a8a;
+  color: black;
+  border-color:red;
+}
+
+
+.keyboard-row {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key-tile {
+  color: #eb0000;
+  width: 36px;
+  height: 40px;
+  margin: 1px;
+  border: 1px solid red;
+
+  /* Text */
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter-key-tile {
+  color: #eb0000;
+  width: 76px;
+  height: 40px;
+  margin: 1px;
+  border: 1px solid red;
+
+  /* Text */
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
